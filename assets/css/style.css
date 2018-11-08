@@ -8,11 +8,6 @@ body {
     background-color: #ffffff;
 }
 
-.jumbotron {
-    background-color: #ffffff;
-    height: 40px;
-    border-bottom: 2px solid #666666;
-}
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -22,7 +17,7 @@ h1 {
 .navbar {
     background-color: #ffffff;
     border-bottom: 2px solid #666666;
-    height: 30px;
+    height: 80px;
     margin-bottom: 32px;
 }
 
@@ -30,7 +25,8 @@ h1 {
     background-color: #4aaaa5;
     border-color: #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 24px;
+    font-size: 32px;
+    padding: 15px;
     color: #ffffff;
     height: 100%;
 }
@@ -51,7 +47,7 @@ h1 {
     background-color: #ffffff;
     border: 1px solid #dddddd; 
     width: 960px;
-    margin: 60px auto 120px;
+    margin: 100px auto 0;
 }
 
 h1 {
@@ -62,10 +58,10 @@ hr {
     opacity: 0.8px;
 }
 
-footer {
+.footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    width: 40px;
+    width: 60px;
 }
 
 
@@ -75,6 +71,13 @@ footer {
 
 img {
     width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    width: 100%;
+    position: static;
 }
 
 h2 {
@@ -82,9 +85,7 @@ h2 {
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 16px;
-    vertical-align: center;
     padding: 8px 0;
-    bottom: 60px;
 }
 
 /*contacts.html specific*/
