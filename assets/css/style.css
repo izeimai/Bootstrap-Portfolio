@@ -58,12 +58,15 @@ footer {
 
 img {
     width: 100%;
-    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .carousel-caption {
     width: 100%;
-    position: static;
+    position: relative;
+    left: 0;
+    bottom: 60px;
 }
 
 h2 {
@@ -75,8 +78,6 @@ h2 {
 }
 
 /*contacts.html specific*/
-
-
 
 input,
 textarea {
