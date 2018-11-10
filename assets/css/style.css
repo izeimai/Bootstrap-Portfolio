@@ -24,23 +24,11 @@ h1 {
 .navbar-brand {
     background-color: #4aaaa5;
     border-color: #cccccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 32px;
-    padding: 15px;
     color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 32px;
+    padding: 13px;
     height: 100%;
-}
-
-.nav-link {
-    border-right: 2px solid #666666;
-}
-
-.nav-link:hover {
-    cursor: crosshair;
-}
-
-.nav-link:last-child {
-    border-right: 0;
 }
 
 #main {
@@ -48,6 +36,7 @@ h1 {
     border: 1px solid #dddddd; 
     width: 960px;
     margin: 100px auto 0;
+    margin-bottom: 120px;
 }
 
 h1 {
@@ -58,21 +47,18 @@ hr {
     opacity: 0.8px;
 }
 
-.footer {
+footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    width: 60px;
+    height: 60px;
 }
 
-
-/*index.html specific*/
 
 /*portfolio.html specific*/
 
 img {
     width: 100%;
     max-height: 100%;
-    overflow: hidden;
 }
 
 .carousel-caption {
@@ -90,16 +76,14 @@ h2 {
 
 /*contacts.html specific*/
 
-label {
-}
+
 
 input,
 textarea {
     width: 100%;
 }
 
-#submit {
+.btn {
     background-color: #4aaaa5;
-    color: #ffffff;
     border: none;
 }
