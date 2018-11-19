@@ -55,6 +55,9 @@ footer {
 
 
 /*portfolio.html specific*/
+a {
+    text-decoration: none;
+}
 
 img {
     width: 100%;
