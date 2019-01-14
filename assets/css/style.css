@@ -6,6 +6,7 @@ body {
 
 .container {
     background-color: #ffffff;
+    width: 960px;
 }
 
 
@@ -16,8 +17,8 @@ h1 {
 
 .navbar {
     background-color: #ffffff;
-    height: 80px;
     margin-bottom: 32px;
+    padding: 0;
 }
 
 .navbar-brand {
@@ -26,7 +27,7 @@ h1 {
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 32px;
-    padding: 13px;
+    padding: 0 10px;
     height: 100%;
 }
 
@@ -50,6 +51,12 @@ footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     height: 60px;
+}
+
+/*index.html specific*/
+#profPhoto {
+    min-width: 200px;
+    max-width: 300px;
 }
 
 
